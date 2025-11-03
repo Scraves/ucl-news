@@ -1,0 +1,90 @@
+/* RESET BÁSICO */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* ENCABEZADO */
+header {
+    background: linear-gradient(90deg, #0b5fff 0%, #022a7a 35%, #001b62 100%);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* SECCIÓN DE NOTICIAS */
+main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.noticia {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+}
+
+.noticia:hover {
+    transform: scale(1.03);
+}
+
+.noticia img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.noticia .contenido {
+    padding: 15px;
+}
+
+.noticia h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.noticia p {
+    font-size: 0.95em;
+    line-height: 1.4;
+}
+
+/* PIE DE PÁGINA */
+footer {
+    background: linear-gradient(90deg, #0b5fff 0%, #022a7a 35%, #001b62 100%);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}

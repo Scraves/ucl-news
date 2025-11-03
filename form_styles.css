@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f0f2f5;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.left {
+    max-width: 400px;
+    color: #034294;
+    text-align: left;
+    align-self: flex-start;
+    margin-top: 120px;
+}
+
+.text {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1877f2;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 40px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); 
+    border: 1px solid rgba(0, 0, 0, 0.1);      
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form {
+    margin-bottom: 15px;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.button {
+    width: 200px;
+    padding: 10px;
+    background: #2575fc;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button :hover {
+    background: #1a5edc;
+}
+
+.switch {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px; 
+}
+
+.switch a{
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.switch a:hover{
+    text-decoration: underline;
+}
